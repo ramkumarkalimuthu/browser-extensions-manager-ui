@@ -1,0 +1,23 @@
+.card{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+img.card__icon {
+    width: 60px;
+    align-self: flex-start;
+}
+.card__content h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+.card__action{
+        display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    
+    margin-top: 10px;
+}

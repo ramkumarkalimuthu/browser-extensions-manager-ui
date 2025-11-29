@@ -1,6 +1,12 @@
 .container{
-  width: 1100px;
+  width: 1200px;
 margin: 0 auto;
-max-width: 80%;
+max-width: 90%;
 
+}
+
+.row{
+  display: flex;
+  justify-self: start;
+  
 }

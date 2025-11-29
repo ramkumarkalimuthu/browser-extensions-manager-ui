@@ -2,12 +2,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 16px;
+  padding-block: 1rem;
 }
 
 .header__bg{
   background-color: var(--color-blue-0);
-  border-radius: 50px;
+   border-radius: var(--radius);
+   padding: 0.75em 1em;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .logo{
+  width: 11.188rem;
 }
 
 
+
+.nav .theme-toggle-img{
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+}
