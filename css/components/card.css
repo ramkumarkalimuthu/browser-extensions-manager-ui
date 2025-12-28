@@ -1,8 +1,8 @@
 .card{
-        display: flex;
-    justify-content: space-between;
-    align-items: center;
+       display: grid;
+    grid-template-columns: 5rem 1fr;
     gap: 1rem;
+        
 }
 
 img.card__icon {
@@ -14,10 +14,15 @@ img.card__icon {
     margin-bottom: 0.5rem;
 }
 .card__action{
-        display: flex;
-    justify-content: space-between;
-    align-content: center;
+       display: grid;
+    grid-template-columns: 5rem 1fr;
     align-items: center;
-    
-    margin-top: 10px;
+}
+
+.button {
+    justify-self: start;
+}
+
+.check {
+    justify-self: end;
 }
