@@ -2,6 +2,7 @@
 @import url('/css/global/fonts.css');
 @import url('/css/global/button.css');
 @import url('/css/global/layout.css');
+@import url('/css/global/theme.css');
 @import url('/css/components/header.css');
 @import url('/css/components/hero.css');
 @import url('/css/components/card.css');

@@ -8,7 +8,7 @@
 .card{
       display: grid;
     grid-template-rows: 1fr auto;
-    background: #fff;
+   background: var(--color-bg-card);
     border-radius: 16px;
     padding: 18px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, .06);
@@ -51,9 +51,13 @@ img.card__icon {
     justify-self: end;
 }
 
-.remove {
-    border: 1px solid #e5e7eb;
-    background: #fff;
-    border-radius: 20px;
-    padding: 6px 14px;
+.card-footer button:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background: var(--color-hover);
+    color: #fff;
 }
+
+.card-footer button:focus {
+    outline: 0px solid var(--color-focus);
+}   

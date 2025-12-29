@@ -1,0 +1,39 @@
+/***toggle switch***/
+
+#theme-toggle {
+
+    display: grid;
+    align-items: center;
+    background: var(--color-switch-bg);    
+    grid-template-columns: 30px 1fr;   
+    padding: 6px 12px;
+    border-radius: 20px;  
+    border: 0;
+}
+
+#theme-toggle img {
+    width: 24px;  
+    justify-self: center;
+} 
+
+
+#theme-toggle img:last-child {
+    display: none;
+}
+
+#theme-toggle:hover {
+    cursor: pointer;
+     background: var(--color-hover);
+} 
+
+.darkmode #theme-toggle img:first-child {
+    display: none;
+}
+
+.darkmode #theme-toggle img:last-child {
+    display: block;
+}
+
+.darkmode path.logo-text {
+    fill: var(--color-text);
+}
