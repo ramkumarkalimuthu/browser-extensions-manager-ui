@@ -7,6 +7,7 @@
    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/style.css">
   <script defer src="./js/app.js"></script>
+  <script defer src="./js/api.js"></script>
 </head>
   <body>
     
@@ -46,69 +47,25 @@
 
      
       <!-- menu items -->
-      
+      <section class="container">
+         <div class="header-row">
+<h2>Extensions List</h2>
+    <div class="filters">
+      <button data-filter="all" class="active">All</button>
+  <button data-filter="active">Active</button>
+  <button data-filter="inactive">Inactive</button>
+
+         </div>
+
+    
+    </div>
+  </section>
         <!-- single item -->
           <section class="cards">  
 
             <div class="container">
-               <div class="card__container">
-
-
- <article class="card">
-      <div class="card-header">
-        <div class="icon pink"><img src="../assets/images/logo-devlens.svg" alt="icon" class="card__icon" /></div>
-        <div class="content">
-          <h3>SpeedBoost</h3>
-          <p>Optimizes browser resource usage to accelerate page loading.</p>
-        </div>
-      </div>
-
-      <div class="card-footer">
-        <button class="remove">Remove</button>
-        <label class="switch">
-          <input type="checkbox">
-          <span></span>
-        </label>
-      </div>
-    </article>
-<article class="card">
-      <div class="card-header">
-        <div class="icon pink"><img src="../assets/images/logo-devlens.svg" alt="icon" class="card__icon" /></div>
-        <div class="content">
-          <h3>SpeedBoost</h3>
-          <p>Optimizes browser resource usage to accelerate page loading.</p>
-        </div>
-      </div>
-
-      <div class="card-footer">
-        <button class="remove">Remove</button>
-        <label class="switch">
-          <input type="checkbox">
-          <span></span>
-        </label>
-      </div>
-    </article>
-
-    <article class="card">
-      <div class="card-header">
-        <div class="icon pink"><img src="../assets/images/logo-devlens.svg" alt="icon" class="card__icon" /></div>
-        <div class="content">
-          <h3>SpeedBoost</h3>
-          <p>Optimizes browser resource usage to accelerate page loading.</p>
-        </div>
-      </div>
-
-      <div class="card-footer">
-        <button class="remove">Remove</button>
-        <label class="switch">
-          <input type="checkbox">
-          <span></span>
-        </label>
-      </div>
-    </article>
-
-
-
+               <div class="card__container" id="card-data">
+                <!-- cards added by JS -->
            </div>
 
 

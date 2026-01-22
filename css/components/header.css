@@ -1,8 +1,6 @@
 .header {
    padding-block: 1rem;
 }
-
-
 .top-bar {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -12,12 +10,36 @@
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
 }
-
-
-
-
  .logo{
   width: 11.188rem;
 }
 
+.header-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding-block: 2rem;
+}
+.filters {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 8px;
+}
 
+.filters button {
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid #e5e7eb;
+    background: #fff;
+}
+
+.filters .active {
+    background:var(--color-active);
+    color: var(--color-switch-bg);
+}
+
+.filters >*:hover {
+    cursor: pointer;
+    background: var(--color-hover);
+    color: var(--color-switch-bg);
+}
